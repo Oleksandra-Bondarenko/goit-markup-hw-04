@@ -2,6 +2,8 @@ body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
@@ -18,19 +20,26 @@ p {
 
 ul,
 ol {
-    margin: 0;
-    padding-left: 0;
     list-style-type: none;
+    padding-left: 0;
+    margin: 0;
 }
 
 a {
     text-decoration: none;
     color: initial;
-    font-family: "Roboto";
 }
 
 img {
     display: block;
+}
+
+.container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .sr-only {
@@ -52,6 +61,7 @@ img {
 }
 
 .section-title {
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -70,13 +80,6 @@ img {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
     color: #2E2F42;
-}
-
-.container {
-    width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
 }

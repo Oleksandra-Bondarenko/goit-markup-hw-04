@@ -15,11 +15,11 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2E2F42;
-    padding-right: 76px;
+    margin-right: 76px;
 }
 
 .header-nav {
-    padding-right: 340px;
+    margin-right: 340px;
 }
 
 .header-nav-list {
