@@ -7,6 +7,18 @@
     flex-basis: 264px;
 }
 
+.decoration {
+    width: 264px;
+    padding: 24px 100px;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    background-color: #F4F4FD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
 .feature-name {
     margin-bottom: 8px;
 }
